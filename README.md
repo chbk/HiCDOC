@@ -1,5 +1,13 @@
+<br>
+
+<p align="center">
+<strong>HiCDOC has moved to: <a href="https://github.com/mzytnicki/HiCDOC">mzytnicki/HiCDOC</a></strong>
+</p>
+
+<br><hr><br>
+
 HiCDOC normalizes intrachromosomal Hi-C matrices and detects A/B compartments
-with multiple replicates using unsupervised learning.
+with multiple replicates using unsupervised learning. This repository is a proof of concept.
 
 <br>
 
@@ -34,21 +42,6 @@ The following dependencies are required:
     R -e 'install.packages("argparse")'
     pip3 install argparse numpy sklearn statsmodels matplotlib plotly
     ```
-
-- Orca<sup>[[installation][orca-installation]]</sup>
-
-    Install with conda:
-    ```bash
-    conda install -c plotly plotly-orca
-    ```
-
-    Or with npm:
-    ```bash
-    npm install -g electron@1.8.4 orca
-    ```
-
-    Or [download the binary](https://github.com/plotly/orca/releases) into `/usr/local/bin/`
-
 <br>
 
 ## Usage
